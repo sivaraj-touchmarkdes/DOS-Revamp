@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link href="../src/assets/css/flowbite.min.css" rel="stylesheet" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -114,7 +114,6 @@
         .custom-bottom-shadow {
             box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.19), 0 6px 6px -6px rgba(0, 0, 0, 0.23);
         }
-
     </style>
 
 </head>
@@ -134,9 +133,10 @@
                         alt="DOS-logo">
                     <div class="flex justify-center items-center space-x-10">
                         <ul class="hidden lg:flex space-x-10">
-                            <li class="font-semibold text-lg"><a href="#">Home</a></li>
-                            <li class="font-semibold text-lg"><a href="#">Who we are?</a></li>
-                            <li class="font-semibold text-lg"><a href="#">Events & Workshop</a></li>
+                            <li class="font-semibold text-lg"><a href="#home">Home</a></li>
+                            <li class="font-semibold text-lg"><a href="#who-we-are">Who we are?</a></li>
+                            <li class="font-semibold text-lg"><a href="#events-workshop">Events & Workshop</a></li>
+                            <li class="font-semibold text-lg"><a href="#partnerships">Partnership</a></li>
                         </ul>
                     </div>
                     <div class="hidden lg:block">
@@ -162,6 +162,7 @@
                             <li class="text-black pl-4"><a href="https://google.com" class="block pl-7">Home</a></li>
                             <li class="text-black pl-4"><a href="#" class="block pl-7">Who we are?</a></li>
                             <li class="text-black pl-4"><a href="#" class="block pl-7">Events & Workshop</a></li>
+                            <li class="text-black pl-4"><a href="#" class="block pl-7">Partnership</a></li>
                             <div class="flex justify-start items-center ml-10 mt-4 space-x-2">
                                 <img src="./src/assets/img/linkedin-logo.png" class="w-7 h-7">
                                 <img src="./src/assets/img/instagram-logo.png" class="w-7 h-7">
@@ -178,8 +179,7 @@
 
 
         <!--Start : Hero Banner Section-->
-        <section
-            class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto py-12 lg:py-24">
+        <section id="home" class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto py-12 lg:py-24">
             <div class="grid grid-cols-12 lg:gap-4">
                 <div class="lg:col-span-7 col-span-12 lg:hidden block flex justify-center items-center w-full h-full">
                     <img src="./src/assets/img/hero-banner.svg">
@@ -192,7 +192,7 @@
                     <h3 class="lg:mt-6 mt-3 text-xl xl:text-xl lg:text-2xl 2xl:text-2xl">aimed at encouraging and
                         promoting communication.</h3>
                     <div class="lg:mt-10 mt-5 flex justify-start items-center gap-4">
-                        <a href="#"
+                        <a href="#contact-us"
                             class="border-2 border-[#02B160] text-[#02B162] hover:bg-[#02B160] hover:text-white px-3 py-2 rounded-3xl text-base lg:text-base xl:text-sm 2xl:text-base font-medium">Join
                             Our Community</a>
                         <a href="#"
@@ -221,7 +221,7 @@
 
 
         <!--Start : Why DOS Club?-->
-        <section
+        <section id="who-we-are"
             class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto py-12 lg:py-24">
             <h3 class="lg:text-base xl:text-sm 2xl:text-base text-base font-semibold" data-aos="fade-right"
                 data-aos-duration="1500">Why DOS Club?</h3>
@@ -509,8 +509,7 @@
 
 
         <!--Start : Community Workshops -->
-        <section
-            class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg xl:-mt-40 lg:-mt-20 2xl:-mt-20 lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto lg:py-12 2xl:py-24 xl:py-60">
+        <section id="events-workshop" class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg xl:-mt-40 lg:-mt-20 2xl:-mt-20 lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto lg:py-12 2xl:py-24 xl:py-60">
             <h3 class="text-base lg:text-base xl:text-sm 2xl:text-basefont-semibold" data-aos="fade-right"
                 data-aos-duration="1500">Community Workshops</h3>
 
@@ -806,8 +805,7 @@
 
 
         <!--Start : Industrial Partners-->
-        <section
-            class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto py-12 lg:py-24">
+        <section id="partnerships" class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg lg:px-8 xl:px-12 2xl:px-4 px-3 mx-auto py-12 lg:py-24">
             <div class="grid grid-cols-12 lg:gap-4">
                 <div class="lg:col-span-8 col-span-12" data-aos="fade-right" data-aos-duration="1500">
                     <h3 class="text-base lg:text-base xl:text-sm 2xl:text-basefont-semibold">Our Partners</h3>
@@ -1077,8 +1075,7 @@
 
 
         <!--Start : Connect with us-->
-        <section
-            class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg mx-auto lg:px-8 xl:px-12 2xl:px-4 px-3 py-12 lg:py-24 relative overflow-hidden">
+        <section id="contact-us" class="xl:max-w-screen-2xl 2xl:max-w-screen-2xl lg:max-w-screen-lg mx-auto lg:px-8 xl:px-12 2xl:px-4 px-3 py-12 lg:py-24 relative overflow-hidden">
 
             <!-- <img src="./src/assets/img/footer-dos-logo.svg" class="absolute right-0 lg:block hidden" style="margin-right: -470px;"> -->
 
@@ -1095,48 +1092,47 @@
                         together!
                     </p>
                     <!--input Form-->
-                    <div class="mt-10 xl:mt-20 2xl:mt-10 lg:mt-10 lg:space-y-14 xl:space-y-10 2xl:space-y-14">
+                    <div class="mt-10 xl:mt-10 2xl:mt-5 lg:mt-5">
+                        <form class="space-y-10 lg:space-y-6 2xl:space-y-6 xl:space-y-6">
 
-                        <div class="relative">
-                            <input type="text"
-                                class="lg:w-5/6 w-full py-7 lg:py-7 xl:py-5 2xl:py-7 border border-[#02B15F] pl-7 text-lg text-black">
-                            <h3
-                                class="text-black text-lg lg:text-lg xl:text-sm 2xl:text-lg font-semibold absolute -mt-[108px] lg:-mt-[108px] 2xl:-mt-[108px] xl:-mt-[90px] ml-5 px-2 bg-white py-2">
-                                Your
-                                Name</h3>
-                        </div>
+                            <div class="relative z-0 lg:w-5/6 w-full mb-5 group">
+                                <input type="text" name="floating_email" id="floating_email"
+                                    class="block pl-6 py-7 px-0 w-full text-sm text-gray-900 bg-transparent border-2 border-[#02B160] border-opacity-40 appearance-none focus:outline-none focus:ring-0 focus:border-[#02B160] peer"
+                                    placeholder=" " required />
+                                <label for="floating_email"
+                                    class="peer-focus:font-semibold peer-focus:text-xl ml-4 mt-3 font-semibold absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:bg-white peer-focus:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-9 z-10 px-3">Your
+                                    Name</label>
+                            </div>
 
-                        <div class="relative">
-                            <input type="text"
-                                class="lg:w-5/6 w-full py-7 lg:py-7 xl:py-5 2xl:py-7 border border-[#02B15F] pl-7 text-lg text-black focus:outline-none focus:ring-2 focus:ring-[#02B15F]">
-                            <h3
-                                class="text-black text-lg lg:text-lg xl:text-sm 2xl:text-lg font-semibold absolute -mt-[108px] lg:-mt-[108px] 2xl:-mt-[108px] xl:-mt-[90px] ml-5 px-2 bg-white py-2">
-                                Your
-                                Email</h3>
-                        </div>
+                            <div class="relative z-0 lg:w-5/6 w-full mb-5 group">
+                                <input type="email" name="floating_email" id="floating_email"
+                                    class="block pl-6 py-7 px-0 w-full text-sm text-gray-900 bg-transparent border-2 border-[#02B160] border-opacity-40 appearance-none focus:outline-none focus:ring-0 focus:border-[#02B160] peer"
+                                    placeholder=" " required />
+                                <label for="floating_email"
+                                    class="peer-focus:font-semibold peer-focus:text-xl ml-4 mt-3 font-semibold absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:bg-white peer-focus:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-9 z-10 px-3">Your
+                                    Email</label>
+                            </div>
 
-                        <div class="relative">
-                            <textarea name="requirements" id="requirements"
-                                class="flex lg:w-5/6 w-full pl-7 text-lg bg-white text-black py-7 lg:py-7 xl:py-5 2xl:py-7 border border-[#02B15F] mt-3 focus:outline-none focus:ring-2 focus:ring-[#02B15F]"
-                                required></textarea>
-                            <h3
-                                class="text-black text-lg lg:text-lg xl:text-sm 2xl:text-lg font-semibold absolute -mt-[140px] lg:-mt-[136px] 2xl:-mt-[136px] xl:-mt-[116px] ml-5 px-2 bg-white py-2">
-                                How
-                                can we help?</h3>
-                        </div>
+                            <div class="relative z-0 lg:w-5/6 w-full mb-5 group">
+                                <textarea type="text" name="floating_first_name" id="floating_first_name"
+                                    class="block pl-6 py-10 px-0 w-full text-sm text-gray-900 bg-transparent border-2 border-[#02B160] border-opacity-40 appearance-none focus:outline-none focus:ring-0 focus:border-[#02B160] peer"
+                                    placeholder=" "></textarea>
+                                <label for="floating_first_name"
+                                    class="peer-focus:font-semibold peer-focus:text-xl ml-4 mt-3 font-semibold absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:bg-white peer-focus:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-9 z-10 px-3">How
+                                    can we help?</label>
+                            </div>
 
-                        <div class="mt-16">
-                            <a href="#"
-                                class="border border-[#02B160] text-[#02B162] text-lg lg:text-lg xl:text-sm 2xl:text-lg font-medium py-3 px-3 xl:py-2 xl:px-2 2xl:py-3 2xl:px-3  lg:py-3 lg:px-3  rounded-3xl hover:text-white hover:bg-[#02B162]">Connect
-                                With Us</a>
-                        </div>
+                            <button type="submit"
+                                class="text-black hover:text-white bg-transparent border border-[#02B160] hover:bg-[#02B160] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit
+                            </button>
 
+                        </form>
                     </div>
                     <!--input Form-->
                 </div>
 
-                <div class="col-span-6 relative flex justify-center items-center w-full h-screen" data-aos="fade-left"
-                    data-aos-duration="1500">
+                <div class="col-span-6 relative flex justify-center items-center w-full h-screen lg:block hidden"
+                    data-aos="fade-left" data-aos-duration="1500">
                     <img src="./src/assets/img/footer-dos-logo.svg"
                         class="absolute flex justify-center items-center w-full h-screen">
                 </div>
@@ -1147,11 +1143,13 @@
         <!--End : Connect with us-->
 
 
-        <!--start : @ 2024 Descience Open Source Club. All rights reserved. -->
+
+        <!--start : Copyright © 2024 Descience Open Source Club. All rights reserved -->
         <section class="lg:pb-24 pb-12 mt-6 xl:mt-6">
-            <h2 class="text-[#2F2F2F] opacity-60 lg:text-xl xl:text-sm 2xl:text-xl text-sm text-center">Copyright © 2023 Descience Open Source Club.</h2>
+            <h2 class="text-[#2F2F2F] opacity-60 lg:text-xl xl:text-sm 2xl:text-xl text-sm text-center">Copyright © 2024
+                Descience Open Source Club. All rights reserved</h2>
         </section>
-        <!--start : @ 2024 Descience Open Source Club. All rights reserved. -->
+        <!--start : Copyright © 2024 Descience Open Source Club. All rights reserved -->
 
     </div>
 
@@ -1316,6 +1314,23 @@
         });
     });
 </script>
+
+<!--Automatic scroll-->
+<script>
+    $(document).ready(function () {
+        // Smooth scroll to anchor links
+        $('a[href^="#"]').on('click', function (event) {
+            var target = $($(this).attr('href'));
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000); // Adjust the speed here (in milliseconds)
+            }
+        });
+    });
+</script>
+
 
 
 </html>
